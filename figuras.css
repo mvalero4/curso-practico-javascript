@@ -11,38 +11,79 @@ body{
     color: azure;
 }
 
+h1{
+    font-size: 50px;
+}
+
+.bloque{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .cuadrado{
     background-color: aliceblue;
-    display: inline-block;
     color: black;
     align-items: center;
     width: 300px;
     height: 300px;
     padding: 20px;
     margin-top: 20px;
+    margin-right: 20px;
     border-radius: 10px;
 }
 
 .triangulo{
     background-color: aliceblue;
-    display: inline-block;
     color: black;
     align-items: center;
     width: 300px;
     height: 300px;
     padding: 20px;
     margin-top: 20px;
+    margin-right: 20px;
     border-radius: 10px;
 }
 
 .circulo{
     background-color: aliceblue;
-    display: inline-block;
     color: black;
     align-items: center;
     width: 300px;
     height: 300px;
     padding: 20px;
     margin-top: 20px;
+    margin-right: 20px;
     border-radius: 10px;
 }
+
+button {
+    display: flex;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: rgb(41, 32, 212);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px;
+    width: 120px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  
+  button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  input{
+      display: flex;
+      width: 50%;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      margin-left: 60px;
+  }
