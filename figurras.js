@@ -23,8 +23,8 @@ function calcularPerimetroCuadrado(){
     const input = document.getElementById("InputCuadrado");
     const value = input.value;
 
-    const perimetro = perimetroCuadrado(value);
-    alert(perimetro);
+    const perimetro = document.getElementById("Resultado");
+    perimetro.innerText = "El resultado es: " + perimetroCuadrado(value) + "cm";
 }
 
 
@@ -32,8 +32,8 @@ function calcularAreaCuadrado(){
     const input = document.getElementById("InputCuadrado");
     const value = input.value;
 
-    const area = areaCuadrado(value);
-    alert(area);
+    const area = document.getElementById("Resultado");
+    area.innerText = "El resultado es: " + areaCuadrado(value) + "cm^2";
 }
 
 
@@ -76,8 +76,8 @@ function calcularPerimetroTriangulo(){
     const value2 = parseInt(input2.value);
     const value3 = parseInt(input3.value);
 
-    var perimetroT = perimetroTriangulo(value1, value2, value3);
-    alert(perimetroT);
+    const perimetroT = document.getElementById("Resultado");
+    perimetroT.innerText = "El resultado es: " + perimetroTriangulo(value1, value2, value3) + "cm";
 }
 
 
@@ -88,8 +88,8 @@ function calcularAreaTriangulo(){
     const value1 = input1.value;
     const value3 = input3.value;
 
-    const areaT = areaTriangulo(value1, value3);
-    alert(areaT);
+    const areaT = document.getElementById("Resultado");
+    areaT.innerText = "El resultado es: " + areaTriangulo(value3, value1) + "cm";
 }
 
 
@@ -148,8 +148,8 @@ function calcularPerimetroCirculo(){
     const input = document.getElementById("InputCirculo");
     const value = input.value;
 
-    const perimetro = perimetroCirculo(value);
-    alert(perimetro);
+    const perimetro = document.getElementById("Resultado");
+    perimetro.innerText = "El resultado es: " + perimetroCirculo(value) + "cm^2";
 }
 
 
@@ -157,8 +157,8 @@ function calcularAreaCirculo(){
     const input = document.getElementById("InputCirculo");
     const value = input.value;
 
-    const area = areaCiculo(value);
-    alert(area);
+    const area = document.getElementById("Resultado");
+    area.innerText = "El resultado es: " + areaCiculo(value) + "cm^2";
 }
 
 
