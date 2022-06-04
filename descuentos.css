@@ -15,7 +15,8 @@ h1{
 form{
     width: 30%;
     height: 300px;
-    background-color: grey;
+    background-image: linear-gradient(285deg, #56b9ff 0, #237fe5 50%, #00498f 100%);
+    box-shadow: #237fe5;
     display: inline-block;
     justify-content: center;
     align-items: center;
